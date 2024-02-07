@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'HomeScreen.dart';
+import '../HomeScreen.dart';
 
 class LandingPage extends StatefulWidget {
   const LandingPage({super.key});
@@ -47,15 +47,15 @@ class _LandingPageState extends State<LandingPage> {
                   Container(
                     margin: EdgeInsets.only(left: 20),
         
-                    height: 56,
-                    width: 56,
+                    height: 48,
+                    width: 48,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(50.0), // Adjust the border radius as needed
                       color: Color(0xFFF3A2C27),
                     ),
                     child: Image.asset(
                       'assets/v.png',
-                      width: 12,
+                      width: 12.5,
                       height: 20,
                       color: Colors.white,// Replace with your image asset
                     ),
@@ -190,13 +190,12 @@ class _LandingPageState extends State<LandingPage> {
                             Container(
                               margin: EdgeInsets.only(left: 50),
 
-                              width:126,
-                              height: 227,
                               child: Image.asset(
                                 'assets/ttneck.png',
-                                width: 312,
-                                height: 168,
-                                // Replace with your image asset
+                                width:126,
+                                height: 227,
+                                // Replace wi  width:126,
+                                //                               height: 227,th your image asset
                               ),
                             ),
                             Container(
@@ -245,24 +244,23 @@ class _LandingPageState extends State<LandingPage> {
                   ),
                 ],),
               ),),
-
+SizedBox(height: 20,),
             Container(
               width: 424,
               color: Color(0xFFFF8F8FA),
               height: 158,
-              padding: EdgeInsets.only( top: 30),
               child: Row(
                 children: [
               Container(
                 padding: EdgeInsets.only(left: 80,top: 30),
 
                 child: Column(children: [
-                  Text("NEW COLLECTION",style: TextStyle(fontSize: 12,color: Color(0xFFF777E90
+                  Text("NEW COLLECTION",style: TextStyle(fontSize: 12,fontFamily:'Schyler',color: Color(0xFFF777E90
                   ))
                     ,),
                   SizedBox(height: 20,),
                   Container(
-                    child: Text("Hang Out  \n & Party",style: TextStyle(fontSize: 20,color: Color(0xFFF777E90
+                    child: Text("Hang Out  \n & Party",style: TextStyle(fontSize: 20,fontFamily:'Schyler',color: Color(0xFFF777E90
                     ))
                       ,),
                   )
@@ -280,9 +278,7 @@ class _LandingPageState extends State<LandingPage> {
                           color: Color(0xFFFECECEC),
                         ),
                       ),
-
                       Container(
-
                         child: Image.asset(
                           'assets/newcoll.png',
                           width:119,
@@ -294,7 +290,6 @@ class _LandingPageState extends State<LandingPage> {
                     ],
 
                   ),
-
                 ],),),
             SizedBox(height: 30,),
             Container(
@@ -363,18 +358,17 @@ class _LandingPageState extends State<LandingPage> {
               width: 424,
               color: Color(0xFFFF8F8FA),
               height: 158,
-              padding: EdgeInsets.only( top: 10),
               child: Row(
                 children: [
                   Container(
-                    padding: EdgeInsets.only(left: 80),
+                    padding: EdgeInsets.only(left: 80,top: 36),
                     child: Column(children: [
-                      Text("Sale upto 40%",style: TextStyle(fontSize: 12,color: Color(0xFFF777E90
+                      Text("Sale upto 40%",style: TextStyle(fontSize: 12,fontFamily:'Schyler',color: Color(0xFFF777E90
                       ))
                         ,),
                       SizedBox(height: 20,),
                       Container(
-                        child: Text("FOR SLIM  \n & BEAUTY",style: TextStyle(fontSize: 20,color: Color(0xFFF777E90
+                        child: Text("FOR SLIM  \n & BEAUTY",style: TextStyle(fontSize: 20,fontFamily:'Schyler',color: Color(0xFFF777E90
                         ))
                           ,),
                       )

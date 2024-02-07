@@ -2,10 +2,10 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 
-import 'LandingPage.dart';
-import 'OrdersPage.dart';
-import 'SearchProducts.dart';
-import 'SettingsPage.dart';
+import 'Pages/LandingPage.dart';
+import 'Pages/OrdersPage.dart';
+import 'Pages/SearchProducts.dart';
+import 'Pages/SettingsPage.dart';
 
 
 
